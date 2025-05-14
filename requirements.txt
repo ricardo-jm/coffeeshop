@@ -1,4 +1,4 @@
-django==3.2.7
+django==4.2.21
 django-extensions
 django-templatetags
 django-countries
