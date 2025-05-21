@@ -17,3 +17,4 @@ django-two-factor-auth[phonenumberslite]
 django-sslserver
 django-mfa2
 pep8
+tornado>=6.5 # not directly required, pinned by Snyk to avoid a vulnerability
