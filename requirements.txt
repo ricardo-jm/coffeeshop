@@ -1,4 +1,4 @@
-django==3.2.7
+django==4.2.22
 django-extensions
 django-templatetags
 django-countries
@@ -17,3 +17,5 @@ django-two-factor-auth[phonenumberslite]
 django-sslserver
 django-mfa2
 pep8
+jupyter-core>=5.8.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
