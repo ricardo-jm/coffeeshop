@@ -1,4 +1,4 @@
-django==3.2.7
+django==4.2.28
 django-extensions
 django-templatetags
 django-countries
@@ -17,3 +17,4 @@ django-two-factor-auth[phonenumberslite]
 django-sslserver
 django-mfa2
 pep8
+nbconvert>=7.17.0 # not directly required, pinned by Snyk to avoid a vulnerability
